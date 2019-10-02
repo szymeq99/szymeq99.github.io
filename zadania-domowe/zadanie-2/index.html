@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Zadanie 2</p>
+    <form action="https://formspree.io/email@domain.tld" method="POST">
+        <label>Imie:<input type="text" name="Imie"></label><br>
+        <label>Nazwisko:<input type="text" name="Nazwisko"></label><br>
+        <label>Mail:<input type="email" name="Mail"></label><br>
+        <label>Telefon:<input type="tel" name="Telefon"></label><br>
+        <label>Miasto:<select name="Miasto">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select></label><br>
+        Płec:<input type="radio" name="gender">Kobieta
+        <input type="radio" name="gender">Mężczyzna<br>
+        <input type="checkbox" name="Zgoda"> Wyrażam zgodę na <br>
+       <label>Wiadomość:<br><textarea maxlength="1000" name="Wiadomość"></textarea></label> 
+    </form>
 </body>
 </html>
