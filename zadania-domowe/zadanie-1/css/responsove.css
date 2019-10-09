@@ -1,0 +1,29 @@
+@media (min-width:992px) and (max-width:1170px)
+{
+    header
+    {
+        background-image: url(../obrazy/man-2.jpg);
+        height: 70vh;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:992px)
+{
+    header
+    {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+     .box
+    {
+        position: relative;
+        margin: -15%;
+        text-align: center;
+        color: #000;
+    } 
+}
