@@ -1,0 +1,54 @@
+@media (min-width:768px) and (max-width:992px)
+{
+    .section
+    {
+        width: 85%;
+    }
+
+    .left
+    {
+        width: 100%;
+    }
+    .container
+    {
+        flex-wrap:wrap-reverse; 
+    }
+    
+   
+}
+
+@media (max-width:768px)
+{
+    .header
+    {
+        order: 1;
+    }
+
+    .section
+    {
+        width: 100%;
+        order: 2;
+    }
+
+    .left
+    {
+        width: 100%;
+        order: 4;
+    }
+
+    .right
+    {
+        width: 100%;
+        order: 3;
+    }
+
+    .footer
+    {
+        order: 5;
+
+    }
+
+
+
+    
+}

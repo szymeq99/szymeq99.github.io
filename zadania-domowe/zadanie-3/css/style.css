@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 25px
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header
+{
+    background-color: green;
+    height: 10vh;
+    width: 100%;
+}
+
+.left
+{
+    background-color: orange;
+    width: 15%;
+    height: 40vh;
+}
+
+.section
+{
+    background-color:red;
+    align-self: center;
+    width: 70%;
+    height: 40vh;
+}
+
+.right
+{
+    background-color:purple;
+    width: 15%;
+    height: 40vh;
+}
+
+.footer
+{
+    background-color: blue;
+    height: 10vh;
+    width: 100%;
+}
