@@ -1,0 +1,20 @@
+.box
+{
+    border: 2px solid green;
+}
+
+.box-inside 
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: all ease-in 0.5s;
+    transform: translate(100px, 200px) rotate(15deg);
+    
+}
+
+.box-inside:hover
+{
+    transform: translate(100px, 200px) scale(1.5) rotate(90deg);
+    background-color: green;
+}

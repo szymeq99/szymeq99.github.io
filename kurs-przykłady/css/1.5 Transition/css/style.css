@@ -1,0 +1,15 @@
+.box
+{
+    background-color: red;
+    width: 40%;
+    height: 300px;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    transition-delay: 0.3s;
+}
+
+.box:hover
+{
+    background-color: green;
+}

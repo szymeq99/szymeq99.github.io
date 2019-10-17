@@ -1,26 +1,92 @@
-body
+.box    
 {
-    font-family: Verdana;
-    margin: 0;
-    padding: 0;
-}
-
-header
-{
-    height: 100vh;
-    /* width: 100%; */
-    background-image: url(../obrazy/man-1.jpg);
-    background-position: center;
-    background-size: cover;
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    margin: 0 auto;
+    position: relative;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    
+    /* margin: 0 auto;
+    position: relative;
+    top: 50%; */
 }
 
-.box
+.box div
 {
     color: #fff;
-    text-transform: uppercase;
-    margin: 3%;
+    position: absolute;
+    visibility: hidden;
+    /* left: 50%; */
+    font-size: 60px;
+}
+
+.jeden, .dwa, .trzy, .cztery, .piec, .szesc, .siedem, .osiem, .dziewiec, .dziesiec, .text
+{
+    animation-name: animacja;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#box10
+{
+    
+    visibility: visible
+}
+#box9
+{
+   
+    animation-delay: 1s;  
+}
+#box8
+{
+    animation-delay: 2s;  
+}
+#box7
+{
+    animation-delay: 3s;  
+}
+#box6
+{
+    animation-delay: 4s;  
+}
+#box5
+{
+    animation-delay: 5s;  
+}
+#box4
+{
+    animation-delay: 6s;  
+}
+#box3
+{
+    animation-delay: 7s;  
+}
+#box2
+{
+    animation-delay: 8s;  
+}
+#box1
+{
+    animation-delay: 9s;  
+}
+#box12
+{
+    animation-delay: 10s;  
+}
+
+@keyframes animacja
+{
+    0%
+    {
+        visibility: hidden;
+    }
+    99%
+    {
+        visibility: visible;
+    }
+    100%
+    {
+        visibility: hidden;
+    }
 }

@@ -1,0 +1,18 @@
+body
+{
+    background-color: tomato;
+}
+
+nav 
+{
+    height: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    border: 3px solid red;
+    font-size: 20px;
+ 
+}
+

@@ -1,0 +1,81 @@
+/* #gellery
+{
+    width: 80%;
+}
+figure
+{
+    width: 33%;
+}
+
+@media (max-width: 480px)
+{
+    #gallery
+    {
+        width: 100%
+    }
+    figure
+    {
+        width: 100%
+    }
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    figure
+    {
+        width: 100%
+    }
+}
+
+@media (min-width:769px) and (max-width:992px)
+{
+    figure
+    {
+        width: 49%
+    }
+    #gallery
+}
+@media (min-width:993px)
+{
+    #gellery
+    {
+        width: 90%
+    }
+} *************************************************/
+
+#gellery
+{
+    width: 100%;
+}
+
+figure 
+{
+    width: 33%;
+}
+
+@media (max-width:992px)
+{
+    figure
+    {
+        width: 49%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    figure
+    {
+        width: 80%
+    }
+}
+@media (max-width: 480px)
+{
+    figure
+    {
+        width: 100%
+    }
+
+    #gallery 
+    {
+        width: 100%
+    }
+}

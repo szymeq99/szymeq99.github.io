@@ -1,0 +1,73 @@
+/* .box
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 40px auto;
+    animation-name: pierwsza-animacja;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pierwsza-animacja
+{
+    0%, 100%
+    {
+        width: 400px;
+    }
+    50%
+    {
+        width: 200px;
+    }
+} */
+body
+{
+    text-align: center;
+}
+ .btn
+{
+    width: 200px;
+    height: 50px;
+    margin: 100px auto;
+    animation-name: druga-animacja;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes druga-animacja
+{
+    0%,100%
+    {
+        transform: scale(1.5);
+    }
+    50%
+    {
+        transform: scale(1)
+    }
+} 
+
+
+img
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+}
+
+
+@keyframes trzecia-animacja
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+     
+    
+}
+
+img:hover
+{
+    animation: trzecia-animacja, 5s, infinite, linear;
+}

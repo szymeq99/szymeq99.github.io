@@ -1,0 +1,11 @@
+body
+{
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    float: left;
+}

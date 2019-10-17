@@ -1,13 +1,29 @@
 @media (min-width:768px) and (max-width:992px)
 {
+    .header
+    {
+        order: 1;
+    }
     .section
     {
         width: 85%;
+        order: 2;
     }
 
     .left
     {
         width: 100%;
+        order: 4;
+    }
+
+    .right
+    {
+        order: 3;
+    }
+
+    .footer
+    {
+        order: 5;
     }
     .container
     {

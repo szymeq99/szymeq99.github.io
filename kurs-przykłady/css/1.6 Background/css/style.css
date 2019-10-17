@@ -1,0 +1,12 @@
+.box
+{
+    width: 80%;
+    height: 40vh;
+    border: dashed 2px green;
+    margin: 0 auto;
+    background-image: url("https://media4.s-nbcnews.com/j/newscms/2019_23/2885811/190606-border-collie-mc-1318_5b1706791f4ae9ddb3029540a98f7e08.fit-760w.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

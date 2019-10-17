@@ -1,0 +1,93 @@
+/* Kolor tła
+body
+{
+    background-color: #213b50;
+    color: white;
+}
+Inputy
+input, textarea, select
+{
+    background-color: #2b4a64;
+    margin-top: 5px;
+    margin-left: 0;
+    border: none;
+}
+
+input[type="submit"]
+{
+    background-color: greenyellow;
+    color: white;
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+textarea:focus, input:focus, select:focus
+{
+    background-color: #4e708c;
+    border: solid 1px #ffffff;
+}
+textarea
+{
+    width: 300px;
+    height: 150px;
+    display: block;
+}
+input[type="text"],input[type="email"],input[type="tel"], select
+{
+    width: 200px;
+    height: 20px;
+    display: block;
+    color: white;
+} */
+/****************** Łukasz ******/
+form
+{
+    background-color: #213b50;  
+    color: #fff;
+    width: 600px;
+    padding: 10px;
+}
+
+input, select, textarea
+{
+    background-color: #2b4e64;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    display: block;
+    width: 300px;
+}
+
+input:focus, select:focus, textarea:focus
+{
+    background-color: #4a708c;
+    border: soli 1px #fff
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    display: inline-block;
+    width: 20px;
+}
+
+label
+{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]
+{
+    background-color: green;
+    text-transform: uppercase;
+    width: 100px;
+    border: 2px solid green;
+}
+
+input[type="submit"]:hover 
+{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}

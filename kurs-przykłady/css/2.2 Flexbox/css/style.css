@@ -1,0 +1,18 @@
+.container
+{
+    border: 2px solid red;
+    padding: 5px;
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content:center;    
+}
+
+.container .box
+{
+    border: 2px dashed green;
+    padding: 5px;
+    flex-basis: 200px;
+}

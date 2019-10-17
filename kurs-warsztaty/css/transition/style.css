@@ -1,0 +1,54 @@
+body
+{
+    text-align: center;
+}
+.box
+{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+   
+    margin-top: 20px;
+}
+
+.red
+{
+    background-color:red;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    transition-delay: 0.5s
+}
+
+.red:hover
+{
+    width: 300px;
+}
+
+.green
+{
+    background-color: green;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    transition-delay: 0.5s
+}
+
+.green:hover{
+    height: 300px;
+}
+
+.blue
+{
+    background-color: blue;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    transition-delay: 0.5s
+}
+
+.blue:hover
+{
+    width: 300px;
+    height: 300px;
+}
