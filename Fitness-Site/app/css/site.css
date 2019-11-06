@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%; }
+    body header .container-fluid {
+      position: fixed;
+      top: 0; }
+    body header .nav {
+      padding: 30px;
+      color: #fff;
+      top: 50px; }
+    body header .table {
+      display: table;
+      height: 100%; }
+    body header .header-text {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      color: #fff; }
+    body header .h3 {
+      font-weight: 200;
+      font-size: 30px; }
+    body header .h1 {
+      font-size: 60px; }
+    body header .intro-table {
+      width: 100%;
+      height: 300px;
+      margin: 20px 0;
+      padding: 20px;
+      color: white;
+      font-size: 20px; }
+    body header .intro-tables {
+      position: relative;
+      top: -130px; }
+    body header .intro-table-first {
+      background-image: url(../img/table-1.jpg);
+      background-size: cover;
+      background-position: center;
+      display: inline-block; }
+      body header .intro-table-first .pos {
+        width: 50%; }
+      body header .intro-table-first .item {
+        margin: 100px 20px 0px 20px; }
+      @media (min-width: 768px) and (max-width: 992px) {
+        body header .intro-table-first .item {
+          margin: 60px 10px 0px 10px; } }
+      body header .intro-table-first hr {
+        border-top: 1px solid rgba(255, 255, 255, 0.6); }
+    body header .intro-table-second {
+      background-image: url(../img/table-2.jpg);
+      background-size: cover;
+      background-position: 0% 0%;
+      transition-duration: .3s;
+      transition-timing-function: ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      body header .intro-table-second .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 10px;
+        font-weight: 500;
+        vertical-align: middle;
+        color: white;
+        width: 100px;
+        opacity: 0;
+        transition-duration: .3s;
+        transition-timing-function: linear; }
+      body header .intro-table-second .content {
+        opacity: 1;
+        transition-duration: .3s;
+        transition-timing-function: linear; }
+      body header .intro-table-second .heading {
+        opacity: 1;
+        transition-duration: .3s;
+        transition-timing-function: linear; }
+    body header .intro-table-second:hover {
+      background-image: url(../img/table-2.jpg);
+      transform: scale(1.1); }
+      body header .intro-table-second:hover .btn {
+        opacity: 1;
+        transform: scale(1.2);
+        background-color: #fff;
+        color: #007bff;
+        border: 2px solid #007bff;
+        transition: transform .3s ease, opacity 0.3s; }
+      body header .intro-table-second:hover .btn:hover {
+        background-color: #007bff;
+        color: #fff;
+        border: 2px solid #fff; }
+      body header .intro-table-second:hover .heading {
+        opacity: 0;
+        transition: transform .3s ease, opacity 0.3s; }
+      body header .intro-table-second:hover .content {
+        font-size: 24px;
+        transform: translateY(-100px);
+        transition: transform .3s;
+        margin: 0;
+        font-weight: 500;
+        line-height: 1.1; }
+    body header .intro-table-third {
+      background-image: url(../img/table-3.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    body header .content {
+      font-size: 24px;
+      margin: 0;
+      font-weight: 500;
+      line-height: 1.1; }
+    body header .heading {
+      margin: 0; }
+    body header .author {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 100; }
