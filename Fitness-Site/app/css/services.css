@@ -1,7 +1,8 @@
 .section {
   padding: 170px 0 40px 0;
-  height: 100vh;
   width: 100%; }
+  .section .pb {
+    padding-bottom: 50px; }
   .section .service {
     width: 100%;
     height: 320px;

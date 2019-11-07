@@ -1,0 +1,112 @@
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/mixins";
+
+.team {
+    padding: 170px 0 60px 0;
+    // width: 100%;
+    background-color: #f7f7f7;
+
+
+
+    .title {
+        padding-bottom: 50px;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        h4 {
+            font-size: 28px;
+            font-weight: 300;
+        }
+    }
+
+    .person {
+        background-color: #fff;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        margin: 80px 0;
+        text-align: center;
+
+        button {
+            margin-bottom: 50px;
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+
+        .empty {
+            padding: 0 200px;
+        }
+
+        .bg-picture-1 {
+            height: 250px;
+            background-image: url(../img/team-cover1.jpg);
+            background-size: cover;
+        }
+
+        .circle-img-1 {
+            background-image: url(../img/team3.jpg);
+        }
+
+
+        .bg-picture-2 {
+            height: 250px;
+            background-image: url(../img/team-cover2.jpg);
+            background-size: cover;
+        }
+
+        .circle-img-2 {
+            background-image: url(../img/team1.jpg);
+        }
+
+
+
+        .bg-picture-3 {
+            height: 250px;
+            background-image: url(../img/team-cover3.jpg);
+            background-size: cover;
+        }
+
+        .circle-img-3 {
+            background-image: url(../img/team2.jpg);
+        }
+
+        .face {
+            height: 100px;
+            z-index: 2;
+            background-size: cover;
+            position: relative;
+            top: -60px;
+            border-radius: 50%;
+        }
+
+        .overlay {
+            opacity: 0;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+            background-color: rgba(0, 123, 255, 0.8);
+            padding: 92px 0;
+
+            h3 {
+                color: #fff;
+                font-size: 26px;
+            }
+
+            h5 {
+                color: #fff;
+                opacity: .5;
+                font-weight: 300;
+                font-size: 18px;
+            }
+
+        }
+    }
+
+    .person:hover {
+        .overlay {
+            opacity: 1;
+        }
+    }
+}

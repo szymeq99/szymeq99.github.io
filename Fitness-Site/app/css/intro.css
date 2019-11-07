@@ -81,14 +81,13 @@
   .intro .intro-table-second:hover .btn {
     opacity: 1;
     transform: scale(1.2);
-    background-color: #fff;
-    color: #007bff;
-    border: 2px solid #007bff;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border: 1px solid #fff;
     transition: transform .3s ease, opacity 0.3s; }
   .intro .intro-table-second:hover .btn:hover {
-    background-color: #007bff;
-    color: #fff;
-    border: 2px solid #fff; }
+    background-color: #fff;
+    color: #007bff; }
   .intro .intro-table-second:hover .heading {
     opacity: 0;
     transition: transform .3s ease, opacity 0.3s; }
