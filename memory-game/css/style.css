@@ -1,0 +1,110 @@
+/* Style głowne */
+
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+#container {
+    width: 725px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(0);
+}
+
+.mini-container{
+    display: none;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(218, 13, 13);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mini-container:hover {
+    box-shadow: 0px 0px 24px 0px #FFFA19;
+} 
+
+.picture {
+    opacity: 0;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+#startGame {
+    margin: 0 auto;
+    padding: 10px 15px;
+    font: inherit;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 40px;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    text-align: center;
+}
+
+#startGame:hover{
+    box-shadow: 0px 0px 36px 12px rgba(255,5,5,0.67);  
+}
+
+.result{
+    text-align: center;
+    margin-top: 20px;
+}
+#number {
+    font-size: 18px;
+}
+
+.finish{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(7, 180, 7);
+    font-size: 30px;
+}
+
+/* Animacje na stronie */
+.show-picture {
+    animation: showPicture .5s ease-in-out 1 forwards;
+}
+
+.start-game{
+    animation-name: startGame;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes showPicture {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes startGame{
+    0%{
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
