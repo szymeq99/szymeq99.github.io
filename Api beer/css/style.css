@@ -1,0 +1,69 @@
+/* Grneral style */
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+img {
+    transform: scale(.5);
+}
+ul {
+    list-style-type: none;
+}
+
+.description{
+    /* background-image: url(../img/piana.jpeg); */
+    /* height: 100vh; */
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(231, 178, 43);
+}
+
+.description img{
+    margin-top: -10%;
+}
+
+.description h3{
+    padding: 10px;
+    margin: 0;
+}
+
+.description p {
+    padding: 10px;
+}
+.description hr{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+
+.icon{
+    color: rgb(231, 178, 43);
+    padding: 15px;
+    
+}
+
+
+
+#get-data{
+    border-radius: 20px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    color: #daa520;
+    font-weight: 600;
+    outline: none;
+}
+
+.header{
+    /* background-image: url(../img/piana.jpeg); */
+    background-color:rgb(238, 227, 227);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.header h1{
+    margin: 0;
+}
