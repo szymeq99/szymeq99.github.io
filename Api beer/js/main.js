@@ -1,5 +1,5 @@
 document.getElementById('get-data').addEventListener('click', function () {
-  fetch('https://api.punkapi.com/v2/beers/')
+  fetch('https://api.punkapi.com/v2/beers/random')
     .then(Response => Response.json())
     .then(json => {
       console.log(json);
