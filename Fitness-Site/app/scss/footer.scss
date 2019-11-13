@@ -1,0 +1,114 @@
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/mixins";
+
+footer {
+    padding: 140px 0 40px;
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+
+    .container {
+
+        // position: relative;
+        // z-index: -1;
+        h3 {
+            color: white;
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        h5 {
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 400;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .btn-trial {
+            background-color: #00a8ff;
+            overflow: hidden;
+            margin: 40px 0;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            transition: all .3 ease;
+        }
+
+        .btn-trial:hover {
+            background-color: #31b9ff;
+        }
+
+        .opening-hours {
+            margin-top: 60px;
+
+            .hours {
+                float: left;
+            }
+        }
+
+        .social-footer{
+            padding: 0;
+            list-style: none;
+
+            ul{
+                margin-top: 0;
+                margin-bottom: 10px;    
+            }
+
+            li{
+                display: inline-block;
+                margin: 0 10px;
+                font-size: 24px;
+            }
+
+        .social{
+            float: left;
+        }
+    }
+    }
+    .bottom-footer{
+        padding-top: 150px;
+    }
+
+    .open-blink {
+        content: ' ';
+        position: relative;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin: 0 20px;
+        border-radius: 50%;
+        background-color: #4caf50;
+        animation-name: flash;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    .open-blink:before {
+        content: ' ';
+        position: absolute;
+        top: -8px;
+        left: -8px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        opacity: 0.1;
+        border-radius: 50%;
+        background-color: #4caf50;
+    }
+        
+    
+}
+
+@keyframes flash {
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
