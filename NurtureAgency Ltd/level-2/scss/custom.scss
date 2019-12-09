@@ -1,0 +1,112 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+$default-color: #000;
+$base-color: #E4C1AE;
+$content-text-color: #121212;
+$base-font: 16px;
+$grey: #F0F0F0;
+
+body {
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+@mixin custom-button($color, $padding, $radius, $background) {
+    background-color: $background;
+    border-radius: $radius;
+    padding: $padding;
+    color: $color;
+    font-size: $base-font;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.section-background {
+    background-color: $grey;
+
+    .wrapper {
+        margin: 50px auto;
+
+        .card-body {
+            padding: 50px 110px;
+
+            .card-title {
+                margin-bottom: 43px;
+                font-size: $base-font * 2.5;
+            }
+
+            .card-text {
+                margin-bottom: 35px;
+                font-size: $base-font;
+                color: $content-text-color;
+            }
+
+            .custom-btn {
+                @include custom-button(#fff,10px 35px, 50px, $base-color);
+            }
+
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container-fluid .container .card-body{
+        padding: 12px 80px;
+        .card-title {
+            margin-bottom: 15px;
+        }
+        .card-text {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width: 536px) {
+    .container-fluid .container .card-body {
+        padding: 18px;
+    }
+}
