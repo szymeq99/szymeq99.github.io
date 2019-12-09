@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    margin: 50px auto;
+}
+
+.box{
+    background-color: rgba(0,0,0,.1);
+    height: 80vh;
+}
+
+.content {
+    padding: 77px;
+}
+
+.card-title{
+    padding-bottom: 30px;
+}
+
+.btn {
+    background-color: #eccdb8;
+    border-radius: 50px;
+    width: 100px;
+    outline: none;
+    border: none;
+}
+
+.content > button:last-child {
+    font-size: 1.2rem;
+    padding: 10px 5px;
+    width: 120px;
+    font-weight: 600;
+}
+
+
+
