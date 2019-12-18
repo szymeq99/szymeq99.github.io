@@ -15,19 +15,29 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const direction = e.wheelDelta < 0 ? 1 : -1;
 
-        if(direction === 1) {
+        scroll(direction);
+    })
+
+    scroll = (direction) => {
+        if (direction === 1) {
             const isLastSection = currentSectionIndex === sections.length - 1;
-            if(isLastSection) return; 
+            if (isLastSection) return;
         } else if (direction === -1) {
             const firstSection = currentSectionIndex === 0;
-            if(firstSection) return;
-        } 
+            if (firstSection) return;
+        }
 
         currentSectionIndex += direction;
 
+        scrollToCurrentSection()
+    }
+    
+
+    scrollToCurrentSection = () => {
         sections[currentSectionIndex].scrollIntoView({
             behavior: 'smooth',
             block: 'start',
         })
-    })
+    }
+    
 })
